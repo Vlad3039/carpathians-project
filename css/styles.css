@@ -1,0 +1,333 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  --light: #f7fbfb;
+  --primary-text: #1b1d1b;
+  --secondary-text: #202321;
+  --blue: #5b86a1;
+  --grey: #a3a5a3;
+
+  --font-family: "Montserrat", sans-serif;
+  --second-family: "Manrope", sans-serif;
+  --third-family: "Playfair Display", sans-serif;
+  --font3: "Gilroy", sans-serif;
+}
+/**---------------Heder-----------------*/
+/* heder */
+.header {
+}
+.box-navigation {
+}
+.nav {
+}
+.box-list {
+  display: flex;
+}
+.heder-list {
+}
+.us-list {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  color: #f7fbfb;
+}
+
+.main {
+}
+.container {
+  width: 1470px;
+  padding-left: 15px;
+  margin-right: 15px;
+  margin: 0 auto;
+}
+/**---------------Hero-----------------*/
+.hero {
+}
+.img-hero {
+}
+.hero-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 88px;
+  text-align: center;
+  color: var(--light);
+}
+.paragraf {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 28px;
+  text-align: center;
+  color: var(--light);
+}
+.hero-button {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--light);
+}
+.inf-box {
+}
+/**---------------About us-----------------*/
+/* About us */
+.section-about {
+}
+.about {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 68px;
+  color: var(--primary-text);
+}
+.paragraf-us {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--secondary-text);
+}
+/**---------------Our advantages-----------------*/
+/* Our advantages */
+.section-Our {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 68px;
+  text-align: center;
+  color: var(--primary-text);
+}
+.our {
+}
+.list-our {
+}
+.andventages {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--light);
+}
+/**---------------Upcoming tours-----------------*/
+/* Upcoming tours */
+.section-Upcoming {
+}
+.upcoming {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 68px;
+  text-align: center;
+  color: var(--primary-text);
+}
+.box-wald {
+}
+.wald {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 28px;
+  color: var(--primary-text);
+}
+.paragraf-preis {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 24px;
+  color: var(--secondary-text);
+}
+.button-more {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--light);
+}
+.box-rein {
+}
+.rein {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 28px;
+  color: var(--primary-text);
+}
+.box-weter {
+}
+.weter {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 28px;
+  color: var(--primary-text);
+}
+/**---------------Reviews-----------------*/
+/* Reviews */
+.section-reviews {
+}
+.Reviews {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 68px;
+  text-align: center;
+  color: var(--primary-text);
+}
+.box-maria {
+}
+.names {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 28px;
+  text-align: center;
+  color: var(--blue);
+}
+.names-maria {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--secondary-text);
+}
+.box-ostap {
+}
+.names-ostap {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--secondary-text);
+}
+.box-anita {
+}
+.names-anita {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--secondary-text);
+}
+/**---------------Gallery-----------------*/
+/* Gallery */
+.section-gallery {
+}
+.gallery {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 68px;
+  text-align: center;
+  color: var(--primary-text);
+}
+/**---------------questions-----------------*/
+/* questions */
+.section-questions {
+}
+.box-questions {
+}
+.questions {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 48px;
+  text-align: center;
+  color: var(--primary-text);
+}
+.paragraf-questions {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: var(--secondary-text);
+}
+.name {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: var(--secondary-text);
+}
+.number {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: var(--secondary-text);
+}
+.What {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--secondary-text);
+}
+.button-call {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 24px;
+  color: var(--light);
+}
+/**---------------footer-----------------*/
+/* footer */
+.footer {
+  width: 1440px;
+  height: 491px;
+}
+.box-footer {
+  background: var(--secondary-text);
+  width: 1470px;
+  padding-left: 15px;
+  margin-right: 15px;
+  margin: 0 auto;
+}
+.box-contakts {
+}
+.contacts {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 60px;
+  text-align: center;
+  color: var(--light);
+}
+.lviv {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: var(--light);
+
+  margin-bottom: 40px;
+}
+.info-namber {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: var(--light);
+
+  margin-bottom: 40px;
+}
+.info {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: var(--light);
+  padding-top: 40px;
+}
+.box-nambers {
+}
+.list-footer {
+}
+.location {
+}
+
+.box-social {
+}
