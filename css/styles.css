@@ -43,13 +43,22 @@ body {
 .header {
 }
 .box-navigation {
+  background-color: #202321;
+  height: 100px;
 }
 .nav {
+  display: flex;
+  align-items: center;
+}
+.logo-heder {
+  margin-right: 318px;
+  margin-left: 136px;
 }
 .box-list {
-  display: flex;
 }
 .heder-list {
+  display: flex;
+  gap: 80px;
 }
 .us-list {
   font-family: var(--font-family);
@@ -102,12 +111,16 @@ body {
   font-weight: 400;
   font-size: 68px;
   color: var(--primary-text);
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
 }
 .paragraf-us {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 24px;
   color: var(--secondary-text);
+  margin-bottom: 80px;
 }
 /**---------------Our advantages-----------------*/
 /* Our advantages */
@@ -118,15 +131,34 @@ body {
   text-align: center;
   color: var(--primary-text);
 }
+.pfotos-our {
+}
 .our {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 68px;
+  text-align: center;
+  color: var(--primary-text);
+  margin-bottom: 60px;
+
+  display: flex;
+  justify-content: center;
 }
 .list-our {
 }
 .andventages {
-  font-family: var(--font-family);
+  font-family: var(--second-family);
   font-weight: 400;
   font-size: 24px;
   color: var(--light);
+
+  background: var(--blue);
+  width: 630px;
+  height: 64px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /**---------------Upcoming tours-----------------*/
 /* Upcoming tours */
@@ -195,6 +227,10 @@ body {
   text-align: center;
   color: var(--blue);
 }
+
+.foto-maria {
+}
+
 .names-maria {
   font-family: var(--font-family);
   font-weight: 400;
@@ -221,18 +257,30 @@ body {
 /* Gallery */
 .section-gallery {
 }
+.list-gellery {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.gellery-box {
+  margin-bottom: 80px;
+}
 .gallery {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 68px;
   text-align: center;
   color: var(--primary-text);
+  margin-bottom: 59px;
 }
 /**---------------questions-----------------*/
 /* questions */
 .section-questions {
 }
 .box-questions {
+  width: 774px;
+  height: 583px;
+  background: var(--light);
 }
 .questions {
   font-family: var(--font-family);
@@ -288,6 +336,7 @@ body {
   margin: 0 auto;
 }
 .box-contakts {
+  display: flex;
 }
 .contacts {
   font-family: var(--font-family);
@@ -300,9 +349,8 @@ body {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 24px;
-  text-align: center;
-  color: var(--light);
 
+  color: var(--light);
   margin-bottom: 40px;
 }
 .info-namber {
@@ -318,13 +366,16 @@ body {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 24px;
-  text-align: center;
+
   color: var(--light);
-  padding-top: 40px;
 }
 .box-nambers {
 }
 .list-footer {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-direction: column;
 }
 .location {
 }
