@@ -170,26 +170,47 @@ body {
   font-size: 68px;
   text-align: center;
   color: var(--primary-text);
+  margin-bottom: 60px;
+}
+.fotos-box {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 80px;
 }
 .box-wald {
+}
+.box-information {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 48px;
 }
 .wald {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 28px;
   color: var(--primary-text);
+
+  margin-top: 44px;
+  margin-bottom: 20px;
 }
 .paragraf-preis {
   font-family: var(--font-family);
   font-weight: 600;
   font-size: 24px;
   color: var(--secondary-text);
+  margin-bottom: 20px;
 }
 .button-more {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 24px;
   color: var(--light);
+
+  border: none;
+  padding: 10px;
+  width: 337px;
+  height: 69px;
+  background: var(--blue);
 }
 .box-rein {
 }
@@ -198,6 +219,9 @@ body {
   font-weight: 600;
   font-size: 28px;
   color: var(--primary-text);
+
+  margin-top: 44px;
+  margin-bottom: 20px;
 }
 .box-weter {
 }
@@ -206,17 +230,24 @@ body {
   font-weight: 600;
   font-size: 28px;
   color: var(--primary-text);
+
+  margin-top: 44px;
+  margin-bottom: 20px;
 }
 /**---------------Reviews-----------------*/
 /* Reviews */
 .section-reviews {
 }
-.Reviews {
+.reviews {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 68px;
   text-align: center;
   color: var(--primary-text);
+}
+.box-reviews {
+  display: flex;
+  gap: 20px;
 }
 .box-maria {
 }
