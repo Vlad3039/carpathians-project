@@ -14,52 +14,51 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <!--Header-->
-    <header class="header">
-      <div class="container">
-        <div class="box-navigation">
-          <nav class="nav">
-            <a href=""
-              ><img class="logo-heder" src="images/svg/Logo.svg" alt="logo"
-            /></a>
-            <div class="box-list">
-              <ul class="heder-list">
-                <li class="list"><a class="us-list" href="">About us</a></li>
-                <li class="list"><a class="us-list" href="">Tours</a></li>
-                <li class="list"><a class="us-list" href="">Reviews</a></li>
-                <li class="list"><a class="us-list" href="">Gallery</a></li>
-                <li class="list"><a class="us-list" href="">Contacts</a></li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </div>
-    </header>
-
     <main class="main">
-      <!--Hero-->
       <section class="hero">
         <div class="container">
-          <img
-            class="img-hero"
-            src="./images/hero/hero-desk-min.jpg"
-            alt=""
-            width="1512"
-            height="1024"
-          />
-          <h1 class="hero-text">TOURS TO THE CARPATHIANS FROM LVIV</h1>
-          <p class="paragraf">
-            Journeys to the very heart of the Carpathians for those who want a
-            real reboot
-          </p>
-          <button class="hero-button">BOOK A TOUR</button>
-
-          <div class="inf-box">
-            <ul>
-              <li class="list"></li>
-              <li class="list"></li>
-              <li class="list"></li>
-            </ul>
+          <!--nav-->
+          <div class="box-hero">
+            <nav class="nav">
+              <a href=""
+                ><img class="logo-heder" src="images/svg/Logo.svg" alt="logo"
+              /></a>
+              <div class="box-list">
+                <ul class="heder-list">
+                  <li class="list"><a class="us-list" href="">About us</a></li>
+                  <li class="list"><a class="us-list" href="">Tours</a></li>
+                  <li class="list"><a class="us-list" href="">Reviews</a></li>
+                  <li class="list"><a class="us-list" href="">Gallery</a></li>
+                  <li class="list"><a class="us-list" href="">Contacts</a></li>
+                </ul>
+              </div>
+            </nav>
+            <!--Hero-->
+            <div class="box-information-hero">
+              <h1 class="hero-text">TOURS TO THE CARPATHIANS FROM LVIV</h1>
+              <p class="paragraf">
+                Journeys to the very heart of the Carpathians for those who want
+                a real reboot
+              </p>
+              <button class="hero-button">BOOK A TOUR</button>
+            </div>
+            <div class="inf-box">
+              <ul>
+                <div class="hero-icons">
+                  <ul>
+                    <li class="list">
+                      <img src="./images/svg/svg/telegram.svg" alt="" />
+                    </li>
+                    <li class="list">
+                      <img src="./images/svg/svg/instagram.svg" alt="" />
+                    </li>
+                    <li class="list">
+                      <img src="./images/svg/svg/facebook.svg" alt="" />
+                    </li>
+                  </ul>
+                </div>
+              </ul>
+            </div>
           </div>
         </div>
       </section>
@@ -107,12 +106,26 @@
           />
 
           <ul class="list-our">
-            <li class="andventages">author's tours</li>
-            <li class="andventages">individual approach</li>
-            <li class="andventages">affordable prices</li>
-            <li class="andventages">comfortable transfer</li>
-            <li class="andventages">professional guides</li>
-            <li class="andventages">accommodation in hotels from 3+ *</li>
+            <li class="andventages">
+              <img src="./images/svg/svg/star.svg" alt="" /> author's tours
+            </li>
+            <li class="andventages">
+              <img src="./images/svg/svg/star.svg" alt="" /> individual approach
+            </li>
+            <li class="andventages">
+              <img src="./images/svg/svg/star.svg" alt="" /> affordable prices
+            </li>
+            <li class="andventages">
+              <img src="./images/svg/svg/star.svg" alt="" /> comfortable
+              transfer
+            </li>
+            <li class="andventages">
+              <img src="./images/svg/svg/star.svg" alt="" /> professional guides
+            </li>
+            <li class="andventages">
+              <img src="./images/svg/svg/star.svg" alt="" /> accommodation in
+              hotels from 3+ *
+            </li>
           </ul>
         </div>
       </section>
@@ -177,7 +190,7 @@
                 width="377"
                 height="134"
               />
-              <img src="" alt="" />
+              <img src="./images/svg/svg/Maria.svg" alt="" />
               <h4 class="names">Maria</h4>
               <p class="names-maria">
                 It was really cool! We saw everything - sun, snow, rain, fog!
@@ -194,7 +207,7 @@
                 width="377"
                 height="134"
               />
-              <img src="" alt="" />
+              <img src="./images/svg/svg/Ostap.svg" alt="" />
               <h4 class="names">Ostap</h4>
               <p class="names-ostap">
                 Good organization, everything went smoothly. Friendly guide
@@ -210,7 +223,7 @@
                 width="377"
                 height="134"
               />
-              <img src="" alt="" />
+              <img src="./images/svg/svg/Anita.svg" alt="" />
               <h4 class="names">Anita</h4>
               <p class="names-anita">
                 Who is going to the mountains for the first time - this is
@@ -251,23 +264,19 @@
       <!--questions-->
       <section class="section-questions">
         <div class="container">
-          <img
-            src="./images/questions/image-3-desk-min.jpg"
-            alt=""
-            width="1920"
-            height="1074"
-          />
-          <div class="box-questions">
-            <h3 class="questions">Do you have any questions?</h3>
-            <p class="paragraf-questions">
-              You can leave your questions here and our manager will call you
-              back within 10 minutes
-            </p>
-            <div class="imput-question">
-              <input class="name" type="Your name*" />
-              <input class="number" type="Phone number*" />
-              <input class="What" type="What would you like to know?" />
-              <button class="button-call">CALL ME</button>
+          <div class="box-img-questions">
+            <div class="box-questions">
+              <h3 class="questions">Do you have any questions?</h3>
+              <p class="paragraf-questions">
+                You can leave your questions here and our manager will call you
+                back within 10 minutes
+              </p>
+              <div class="imput-question">
+                <input class="name" type="Your name*" />
+                <input class="number" type="Phone number*" />
+                <input class="What" type="What would you like to know?" />
+                <button class="button-call">CALL ME</button>
+              </div>
             </div>
           </div>
         </div>
@@ -282,23 +291,31 @@
           <div class="box-nambers">
             <ul class="list-footer">
               <li class="location">
-                <img src="" alt="" />
+                <img src="./images/svg/svg/info.svg" alt="" />
                 <p class="info">Lviv, st. Doroshenko, 44</p>
               </li>
               <li>
-                <img src="" alt="" />
+                <img src="./images/svg/svg/tel.svg" alt="" />
                 <a class="info link" href="">+38 (097) 162 -67-90</a>
               </li>
               <li>
-                <img src="" alt="" />
+                <img src="./images/svg/svg/emeil.svg" alt="" />
                 <a class="info link" href="">mandrykarpaty@gmail.com</a>
               </li>
             </ul>
           </div>
           <div class="box-social">
-            <img src="" alt="" />
-            <img src="" alt="" />
-            <img src="" alt="" />
+            <ul>
+              <li class="list">
+                <img src="./images/svg/svg/telegram.svg" alt="" />
+              </li>
+              <li class="list">
+                <img src="./images/svg/svg/instagram.svg" alt="" />
+              </li>
+              <li class="list">
+                <img src="./images/svg/svg/facebook.svg" alt="" />
+              </li>
+            </ul>
           </div>
         </div>
       </div>
