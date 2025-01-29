@@ -314,7 +314,14 @@ body {
   text-align: center;
   color: var(--blue);
 }
+.icons-posishen {
+  display: flex;
+  justify-content: center;
+}
 
+/* .reviews-box {
+  display: flex;
+} */
 .foto-maria {
 }
 
